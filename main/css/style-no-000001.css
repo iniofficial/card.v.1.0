@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    background: url(../photo-1579546929662-711aa81148cf.jfif) fixed no-repeat;
+    background-size: cover;
+}
+
+
+.card{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card .box{
+    border: none;
+    width: 34.24em;
+    height: 21.56em;
+    border-radius: 3.48mm;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.356);
+}
+
+.card .box{
+    background: url(../photo-1579546929662-711aa81148cf.jfif);
+    background-size: cover;
+}
+
+.card .box:hover{
+    filter: brightness(110%) blur(1px);
+    transition: .4s;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0 10px 10px rgba(255, 254, 254, 0.116);
+}
+
+.card .box .logo img{
+    width: 200px;
+    filter: brightness(140%) blur(0.50px);
+}
+
+.card .box .logo img:hover{
+    transition: .2s;
+    width: 210px;
+    filter: brightness(110%) blur(0.50px);
+}
+
+.card .box .logo{
+    float: right;
+    margin-right: 20px;
+}
+
+.card .box .name{
+    padding-top: 30%;
+    padding-left: 2%;
+}
+
+.card .box .name p{
+    font-size: 30px;
+}
+
+.card .box .name p:hover{
+    font-size: 32px;
+    transition: .2s;
+    color: white;
+}
+
+.one-line{
+    display: flex;
+}
+
+.card .box .card-no{
+    padding-left: 2%;
+    letter-spacing: 2px;
+}
+
+.card .box .card-no h1{
+    font-size: 40px;
+}
+
+.card .box .card-no h1:hover{
+    font-size: 42px;
+    transition: .2s;
+    color: white;
+}
+
+.card .box .date{
+    padding-left: 2%;
+}
+
+.card .box .date h2:hover{
+    color: white;
+    font-size: 26px;
+    transition: .2s;
+}
+
+.card .box .cvv{
+    padding-left: 50%;
+}
+
+.card .box .cvv h3:hover{
+    transition: .2s;
+    color: white;
+    font-size: 22px;
+}
